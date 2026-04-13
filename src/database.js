@@ -6,7 +6,7 @@ const conectarDB = async () => {
     try {
         // Intentamos conectar a la base de datos local
         // 'appbd' es el nombre de nuestra base de datos
-        await mongoose.connect('mongodb://localhost:27017/appbd'); 
+        await mongoose.connect('mongodb+srv://elgiussepy:Mypass@cluster0.hwjxd84.mongodb.net/My-Ecomerce'); 
 
         
         
